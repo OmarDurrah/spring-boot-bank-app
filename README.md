@@ -208,6 +208,7 @@ Response:
 ⚙️ Running the Project
 1️⃣ Clone the repository
 git clone https://github.com/your-username/bankapp.git
+---
 2️⃣ Configure database
 
 Update application.properties:
@@ -224,6 +225,7 @@ jwt.secret=mysecretkeymysecretkeymysecretkey
 jwt.expiration=86400000
 
 server.port=6060
+---
 
 
 3️⃣ Run the application
