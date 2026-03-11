@@ -138,8 +138,8 @@ The project follows a layered architecture:
 Response Example:
 
 
+<img width="2672" height="2620" alt="login" src="https://github.com/user-attachments/assets/6167e108-0792-4817-97a2-95302a4696f2" />
 
-<img width="1155" height="702" alt="{853A0673-2D99-46A1-8A09-EE122AFEE912}" src="https://github.com/user-attachments/assets/b528a85e-1566-4471-813b-de3453401f59" />
 
 
 
