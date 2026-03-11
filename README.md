@@ -99,38 +99,28 @@ The project follows a layered architecture:
 
 ## 📂 Project Structure
 
-```mermaid
-
-bankapp
-│
-├── controller
-│   └── BankController
-│
-├── service
-│   └── BankService
-│
-├── repository
-│   ├── UserRepository
-│   ├── BankAccountRepository
-│   └── TransactionRepository
-│
-├── entity
-│   ├── User
-│   ├── BankAccount
-│   ├── Transaction
-│   └── TransactionType
-│
-├── security
-│   ├── JwtFilter
-│   ├── JwtService
-│   ├── SecurityConfig
-│   └── CorsConfig
-│
-├── exception
-│   └── GlobalExceptionHandler
-│
-└── dto
-
+- **bankapp**
+  - **controller**
+    - BankController
+  - **service**
+    - BankService
+  - **repository**
+    - UserRepository
+    - BankAccountRepository
+    - TransactionRepository
+  - **entity**
+    - User
+    - BankAccount
+    - Transaction
+    - TransactionType
+  - **security**
+    - JwtFilter
+    - JwtService
+    - SecurityConfig
+    - CorsConfig
+  - **exception**
+    - GlobalExceptionHandler
+  - **dto**
 
 ---
 
