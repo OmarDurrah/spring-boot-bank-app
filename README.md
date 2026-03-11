@@ -97,9 +97,9 @@ The project follows a layered architecture:
 ---
 
 
-
-## 📂 Project Structure
 ```mermaid
+## 📂 Project Structure
+
 bankapp
 │
 ├── controller
