@@ -56,31 +56,40 @@ This project demonstrates **real-world backend architecture** using Spring Boot 
 
 The project follows a **layered architecture**:
 
-Controller Layer
-↓
-Service Layer (Business Logic)
-↓
-Repository Layer (Spring Data JPA)
-↓
-Database
+┌─────────────────┐
+│   Controller    │  →  REST endpoints, handle HTTP requests/responses
+├─────────────────┤
+│    Service      │  →  Business logic, transaction management, validation
+├─────────────────┤
+│   Repository    │  →  Data access layer (Spring Data JPA)
+├─────────────────┤
+│    Database     │  →  MySQL / PostgreSQL (configured via properties)
+└─────────────────┘
 
 ---
 
 ## 🔐 Security Flow
 
-Client (React)
-↓
-Login Request
-↓
-JWT Token Generated
-↓
-Client sends token in Authorization header
-↓
-JwtFilter validates token
-↓
-SecurityContext updated
-↓
-Request allowed to access protected endpoints
+[Client] 
+   │
+   ▼
+Request with Header: Authorization: Bearer <JWT>
+   │
+   ▼
+[JwtFilter] (OncePerRequestFilter)
+   │
+   ├─ Extract token from header
+   ├─ Validate token (signature, expiration)
+   ├─ Extract username from token
+   ├─ Load UserDetails from database
+   ├─ Create Authentication object (UsernamePasswordAuthenticationToken)
+   └─ Set authentication in SecurityContextHolder
+   │
+   ▼
+[SecurityContext] → Authenticated user available for the request
+   │
+   ▼
+[DispatcherServlet] → Routes to Controller
 
 **Request header example:**
 
