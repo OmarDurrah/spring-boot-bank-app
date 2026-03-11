@@ -139,7 +139,8 @@ Response Example:
 
 
 
-<img width="1712" height="1007" alt="{6E69C9E1-CCFB-4306-9B85-7B4FA7671EC8}" src="https://github.com/user-attachments/assets/6a972f27-2467-4aa3-8cb9-296afb7b45e9" />
+<img width="1539" height="952" alt="{D73BD30E-D539-4F7B-BBC8-EF2B6E286F39}" src="https://github.com/user-attachments/assets/88b7f158-f506-4ad4-9dcb-19a0f0b10478" />
+
 
 
 
