@@ -1,4 +1,4 @@
-# 🏦 Bank Management System (Spring Boot + React)
+# 🏦 Bank Management System (Spring Boot)
 
 ## 📌 Overview
 
@@ -52,7 +52,7 @@ This project demonstrates **real-world backend architecture** using Spring Boot 
 
 ---
 
-# 🏗️ Architecture
+## 🏗️ Architecture
 
 The project follows a **layered architecture**:
 
@@ -66,7 +66,7 @@ Database
 
 ---
 
-# 🔐 Security Flow
+## 🔐 Security Flow
 
 Client (React)
 ↓
@@ -88,7 +88,7 @@ Authorization: Bearer <JWT_TOKEN>
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 bankapp
 │
