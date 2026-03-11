@@ -210,7 +210,7 @@ Response:
 
 ⚙️ Running the Project
 1️⃣ Clone the repository
-git clone https://github.com/your-username/bankapp.git
+git clone https://github.com/OmarDurrah/spring-boot-bank-app.git
 
 ---
 
