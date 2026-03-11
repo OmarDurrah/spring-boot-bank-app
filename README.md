@@ -143,6 +143,8 @@ Response:
     "id": 7
 }
 
+---
+
 
 
 2️⃣ Login User
@@ -160,7 +162,7 @@ Response Example:
     "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhemVleiIsImlhdCI6MTc3MzE5NDM1MSwiZXhwIjoxNzczMjgwNzUxfQ.zWBSUiSdprPqNTNUEdfePxg9G73Dmr9V3GrWSTxOqJI"
 }
 
-
+---
 3️⃣ Create Bank Accounts
 
 POST /api/accounts
@@ -179,6 +181,7 @@ Response:
     "id": 8
 }
 
+---
 
 6️⃣ Transfer
 
@@ -203,12 +206,14 @@ Response:
 
 
 
-
+---
 
 ⚙️ Running the Project
 1️⃣ Clone the repository
 git clone https://github.com/your-username/bankapp.git
+
 ---
+
 2️⃣ Configure database
 
 Update application.properties:
@@ -225,6 +230,7 @@ jwt.secret=mysecretkeymysecretkeymysecretkey
 jwt.expiration=86400000
 
 server.port=6060
+
 ---
 
 
@@ -245,6 +251,8 @@ Pagination
 Optimistic locking
 
 Clean architecture
+
+---
 
 👨‍💻 Author
 
