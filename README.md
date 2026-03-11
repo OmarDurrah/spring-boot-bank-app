@@ -93,25 +93,31 @@ Authorization: Bearer <JWT_TOKEN>
 bankapp
 │
 ├── controller
-│ └── BankController
+│   └── BankController
+│
 ├── service
-│ └── BankService
+│   └── BankService
+│
 ├── repository
-│ ├── UserRepository
-│ ├── BankAccountRepository
-│ └── TransactionRepository
+│   ├── UserRepository
+│   ├── BankAccountRepository
+│   └── TransactionRepository
+│
 ├── entity
-│ ├── User
-│ ├── BankAccount
-│ ├── Transaction
-│ └── TransactionType
+│   ├── User
+│   ├── BankAccount
+│   ├── Transaction
+│   └── TransactionType
+│
 ├── security
-│ ├── JwtFilter
-│ ├── JwtService
-│ ├── SecurityConfig
-│ └── CorsConfig
+│   ├── JwtFilter
+│   ├── JwtService
+│   ├── SecurityConfig
+│   └── CorsConfig
+│
 ├── exception
-│ └── GlobalExceptionHandler
+│   └── GlobalExceptionHandler
+│
 └── dto
 
 
