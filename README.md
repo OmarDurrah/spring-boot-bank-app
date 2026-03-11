@@ -52,19 +52,15 @@ This project demonstrates **real-world backend architecture** using Spring Boot 
 
 ---
 
-## 🏗️ Architecture
+# Architecture
 
-The project follows a **layered architecture**:
+The project follows a layered architecture:
 
-┌─────────────────┐
-│   Controller    │  →  REST endpoints, handle HTTP requests/responses
-├─────────────────┤
-│    Service      │  →  Business logic, transaction management, validation
-├─────────────────┤
-│   Repository    │  →  Data access layer (Spring Data JPA)
-├─────────────────┤
-│    Database     │  →  MySQL / PostgreSQL (configured via properties)
-└─────────────────┘
+- **Controller Layer** – Handles REST API requests and responses  
+- **Service Layer** – Contains business logic and transaction management  
+- **Repository Layer** – Handles database operations using Spring Data JPA  
+- **Database Layer** – MySQL or PostgreSQL  
+
 
 ---
 
