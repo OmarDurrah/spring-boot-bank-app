@@ -252,7 +252,7 @@ Optimistic locking
 
 Clean architecture
 
----
+--
 
 👨‍💻 Author
 
