@@ -64,33 +64,36 @@ The project follows a layered architecture:
 
 ---
 
+
+
 ## 🔐 Security Flow
 
-[Client] 
-   │
-   ▼
-Request with Header: Authorization: Bearer <JWT>
-   │
-   ▼
-[JwtFilter] (OncePerRequestFilter)
-   │
-   ├─ Extract token from header
-   ├─ Validate token (signature, expiration)
-   ├─ Extract username from token
-   ├─ Load UserDetails from database
-   ├─ Create Authentication object (UsernamePasswordAuthenticationToken)
-   └─ Set authentication in SecurityContextHolder
-   │
-   ▼
-[SecurityContext] → Authenticated user available for the request
-   │
-   ▼
-[DispatcherServlet] → Routes to Controller
+1. **Client sends a request** to a protected API endpoint.
 
-**Request header example:**
+2. The request includes an authorization header:
 
-Authorization: Bearer <JWT_TOKEN>
+  
+3. The request passes through **JwtFilter (OncePerRequestFilter)**.
 
+4. The filter **extracts the JWT token** from the request header.
+
+5. The system **validates the token**:
+- Verifies the signature
+- Checks token expiration
+
+6. If the token is valid, the system **extracts the username** from the JWT.
+
+7. The application **loads UserDetails from the database**.
+
+8. Spring Security **creates an Authentication object** (`UsernamePasswordAuthenticationToken`).
+
+9. The authentication is **stored in `SecurityContextHolder`**.
+
+10. The request continues to the **Spring DispatcherServlet**.
+
+11. The request is routed to the **protected Controller endpoint**.
+
+12. The controller processes the request with the **authenticated user context**.
 ---
 
 ## 📂 Project Structure
