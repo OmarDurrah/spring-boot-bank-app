@@ -131,17 +131,17 @@ The project follows a layered architecture:
 **Body:**
 
 {
-  "name": "omar",
-  "password": "password123"
+  "name": "azeez",
+  "password": "omardurrah"
 }
 
-Response Example:
+Response:
 
-
-
-
-
-
+{
+    "name": "azeez",
+    "accounts": null,
+    "id": 7
+}
 
 
 
@@ -156,12 +156,9 @@ Body:
 
 Response Example:
 
-
-
-
-
-
-
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhemVleiIsImlhdCI6MTc3MzE5NDM1MSwiZXhwIjoxNzczMjgwNzUxfQ.zWBSUiSdprPqNTNUEdfePxg9G73Dmr9V3GrWSTxOqJI"
+}
 
 
 3️⃣ Create Bank Accounts
@@ -174,13 +171,13 @@ Body Example:
   "initialBalance": 1000
 }
 
-Response Example:
+Response:
 
 
-
-
-
-
+{
+    "balance": 1000.0,
+    "id": 8
+}
 
 
 6️⃣ Transfer
@@ -190,12 +187,19 @@ Headers: Authorization: Bearer <JWT_TOKEN>
 Body Example:
 
 {
-  "fromAccountId": 1,
-  "toAccountId": 2,
-  "amount": 150
+    "fromAccountId": 8,
+    "toAccountId": 2,
+    "amount": 150.0
 }
 
-Response Example:
+
+Response:
+
+{
+    "fromAccountId": 8,
+    "toAccountId": 2,
+    "amount": 150.0
+}
 
 
 
@@ -243,5 +247,6 @@ Clean architecture
 👨‍💻 Author
 
 Omar Durrah
-Software Engineering Student
-Backend Developer (Spring Boot)
+Computer Engineer 
+Full-Stack Developer (Spring Boot)
+📧 omardorra236@gmail.com
