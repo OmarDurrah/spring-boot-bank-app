@@ -138,7 +138,6 @@ The project follows a layered architecture:
 Response Example:
 
 
-<img width="2672" height="2620" alt="login" src="https://github.com/user-attachments/assets/6167e108-0792-4817-97a2-95302a4696f2" />
 
 
 
@@ -160,7 +159,6 @@ Response Example:
 
 
 
-<img width="1699" height="858" alt="{17A93ABD-58DE-4E71-820C-D48DBA3B3F97}" src="https://github.com/user-attachments/assets/56dd49c8-bcdb-46b2-8ec1-f8d7cb21a483" />
 
 
 
@@ -180,7 +178,6 @@ Response Example:
 
 
 
-<img width="1685" height="964" alt="{9DE82E4D-3AA3-4F95-8B0B-CC5BE3E201DE}" src="https://github.com/user-attachments/assets/3dade945-5587-4890-b30d-1d987060ac53" />
 
 
 
@@ -200,8 +197,6 @@ Body Example:
 
 Response Example:
 
-
-<img width="1765" height="947" alt="{F87D53EB-D5EE-4E6E-92E3-0C2F4C133245}" src="https://github.com/user-attachments/assets/b8292e22-9cec-4a54-a418-72ec1b77fece" />
 
 
 
