@@ -99,6 +99,8 @@ The project follows a layered architecture:
 
 ## 📂 Project Structure
 
+```mermaid
+
 bankapp
 │
 ├── controller
@@ -129,6 +131,7 @@ bankapp
 │
 └── dto
 
+```mermaid
 
 
 ---
