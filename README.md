@@ -129,7 +129,7 @@ The project follows a layered architecture:
 ### 1️⃣ Register User
 **POST** `/api/auth/register`  
 **Body:**
-```json
+
 {
   "name": "omar",
   "password": "password123"
