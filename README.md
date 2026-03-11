@@ -131,8 +131,6 @@ bankapp
 │
 └── dto
 
-```mermaid
-
 
 ---
 
