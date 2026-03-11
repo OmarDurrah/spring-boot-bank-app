@@ -96,8 +96,10 @@ The project follows a layered architecture:
 12. The controller processes the request with the **authenticated user context**.
 ---
 
-## 📂 Project Structure
 
+
+## 📂 Project Structure
+```mermaid
 bankapp
 │
 ├── controller
