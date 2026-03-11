@@ -256,7 +256,7 @@ Clean architecture
 
 👨‍💻 Author
 
-Omar Durrah
-Computer Engineer 
-Full-Stack Developer (Spring Boot)
+Omar Durrah **|**
+Computer Engineer **|**
+Full-Stack Developer (Spring Boot) **|**
 📧 omardorra236@gmail.com
