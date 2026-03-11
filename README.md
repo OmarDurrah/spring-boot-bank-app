@@ -97,7 +97,6 @@ The project follows a layered architecture:
 ---
 
 
-```mermaid
 ## 📂 Project Structure
 
 bankapp
